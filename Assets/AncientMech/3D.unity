@@ -2814,7 +2814,7 @@ MonoBehaviour:
   target: {fileID: 1654601871}
   MaxZ: 100
   MinZ: 10
-  ZChangePerWheel: 2
+  ZChangePerWheel: -3
   zOffset: 20
 --- !u!1001 &2017285002
 Prefab:
