@@ -11,6 +11,7 @@ public class LandingPad : MonoBehaviour
 	public Effect effect;
 	public float TimeRequired = 3;
 	public Text TimeLeftLabel;
+	public bool NoKeyAllowed = true;
 
 	private float timeInTrigger;
 	public bool Triggered = false;
@@ -31,6 +32,13 @@ public class LandingPad : MonoBehaviour
 		}
 	}
 
+	void LateUpdate() {
+		if (NoKeyAllowed) {
+			if (Input.anyKey) {
+				timeInTrigger = 0;
+			}
+		}
+	}
 
 	void OnTriggerExit() {
 		timeInTrigger = 0;

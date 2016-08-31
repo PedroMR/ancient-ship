@@ -103,6 +103,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   effect: 0
-  TimeRequired: 6
+  TimeRequired: 5
   TimeLeftLabel: {fileID: 0}
   Triggered: 0
