@@ -13,11 +13,6 @@ public class ControlButton : MonoBehaviour
 	void Start()
 	{
 		YWhenUp = transform.localPosition.y;
-
-		var newColor = Color.HSVToRGB(Random.value, Random.Range(0.5f, 1f), 1.0f);
-//		Color newColor = new Color( Random.value, Random.value, Random.value, 1.0f );
-		var renderer = GetComponent<Renderer>();
-		renderer.material.color = newColor;	
 	}
 	
 	// Update is called once per frame
