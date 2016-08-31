@@ -48,6 +48,7 @@
      <Compile Include="Assets\AncientMech\Scripts\ActivateOnInput.cs" />
      <Compile Include="Assets\AncientMech\Scripts\LandingPad.cs" />
      <Compile Include="Assets\AncientMech\Scripts\MouseCameraControl.cs" />
+     <Compile Include="Assets\AncientMech\Scripts\PartJoiner.cs" />
      <Compile Include="Assets\AncientMech\Scripts\RandomizeInputs.cs" />
      <Compile Include="Assets\SWS\Examples\Scripts\CameraInputDemo.cs" />
      <Compile Include="Assets\SWS\Examples\Scripts\EventCollisionTrigger.cs" />

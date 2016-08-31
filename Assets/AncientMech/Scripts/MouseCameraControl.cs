@@ -13,6 +13,15 @@ public class MouseCameraControl : MonoBehaviour
 
 	private void LateUpdate()
 	{
+		if (target == null || !target.gameObject.activeInHierarchy) {
+			var shipCenters = GameObject.FindGameObjectsWithTag("Player");
+			foreach (var ship in shipCenters) {
+				if (ship.activeInHierarchy) {
+					target = ship.transform;
+				}
+			}
+		}
+
 		zOffset += Input.mouseScrollDelta.y * ZChangePerWheel * Time.deltaTime;
 			
 		zOffset = Mathf.Clamp(zOffset, MinZ, MaxZ);
