@@ -5,7 +5,7 @@ public class RandomizeInputs : MonoBehaviour
 {
 
 	// Use this for initialization
-	void Start()
+	void Awake()
 	{
 
 		var inputComponents = GetComponentsInChildren<ActivateOnInput>();
