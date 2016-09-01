@@ -12,9 +12,12 @@ public class ControlButton : MonoBehaviour
 
 	private bool working = false;
 
+	private bool mouseDownOnThis;
+
 	// Use this for initialization
 	void Start()
 	{
+		mouseDownOnThis = false;
 		YWhenUp = transform.localPosition.y;
 
 		if (STICK_NONWORKING_BUTTONS) {
@@ -28,13 +31,25 @@ public class ControlButton : MonoBehaviour
 			working = true;
 		}
 	}
-	
+
+	void OnMouseDown()
+	{
+		mouseDownOnThis = true;
+		InputBroker.Instance.ForceKeyDown(Key);
+	}
+
+	void OnMouseUp()
+	{
+		mouseDownOnThis = false;
+		InputBroker.Instance.ClearKeyDown(Key);
+	}
+
 	// Update is called once per frame
 	void Update()
-	{
+	{			
 		var localPos = transform.localPosition;
 
-		if (Input.GetKey(Key)) {
+		if (InputBroker.Instance.GetKey(Key)) {
 			localPos.y -= YChangeRate * Time.deltaTime;
 		} else {
 			if (working) // don't reset if not working
