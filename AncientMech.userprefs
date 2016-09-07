@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AncientMech/Scripts/ActivateOnInput.cs">
+    <Files>
+      <File FileName="Assets/AncientMech/Scripts/RandomizeInputs.cs" Line="12" Column="3" />
+      <File FileName="Assets/Standard Assets/Utility/FollowTarget.cs" Line="16" Column="10" />
+      <File FileName="Assets/AncientMech/Scripts/MouseCameraControl.cs" Line="20" Column="29" />
+      <File FileName="Assets/AncientMech/Scripts/LandingPad.cs" Line="14" Column="28" />
+      <File FileName="Assets/AncientMech/Scripts/PartJoiner.cs" Line="16" Column="2" />
+      <File FileName="Assets/AncientMech/Scripts/ControlButton.cs" Line="52" Column="31" />
+      <File FileName="Assets/AncientMech/Scripts/RandomColor.cs" Line="11" Column="63" />
+      <File FileName="Assets/AncientMech/Scripts/ActivateOnInput.cs" Line="22" Column="13" />
+      <File FileName="Assets/AncientMech/Scripts/InputBroker.cs" Line="23" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
