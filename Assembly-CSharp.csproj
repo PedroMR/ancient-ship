@@ -47,7 +47,9 @@
   <ItemGroup>
      <Compile Include="Assets\AncientMech\Scripts\ActivateOnInput.cs" />
      <Compile Include="Assets\AncientMech\Scripts\ControlButton.cs" />
+     <Compile Include="Assets\AncientMech\Scripts\DestructionWatcher.cs" />
      <Compile Include="Assets\AncientMech\Scripts\ExplodesOnContact.cs" />
+     <Compile Include="Assets\AncientMech\Scripts\GameRunner.cs" />
      <Compile Include="Assets\AncientMech\Scripts\InputBroker.cs" />
      <Compile Include="Assets\AncientMech\Scripts\LandingPad.cs" />
      <Compile Include="Assets\AncientMech\Scripts\MouseCameraControl.cs" />

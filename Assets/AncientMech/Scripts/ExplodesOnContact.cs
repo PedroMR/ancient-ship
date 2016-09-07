@@ -28,6 +28,7 @@ public class ExplodesOnContact : MonoBehaviour
 
 		}
 		dead = true;
+		GameRunner.Instance.DestructionCaused(PointValue + Random.value*PointValue);
 		Destroy(gameObject, DestructionTimer);
 	}
 }
