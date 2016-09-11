@@ -46,6 +46,18 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <Compile Include="Assets\InControl\Editor\InControlBuilder.cs" />
+     <Compile Include="Assets\InControl\Editor\InControlManagerEditor.cs" />
+     <Compile Include="Assets\InControl\Editor\InputManagerAssetGenerator.cs" />
+     <Compile Include="Assets\InControl\Editor\ProfileListGenerator.cs" />
+     <Compile Include="Assets\InControl\Editor\ReorderableList\GenericListAdaptor.cs" />
+     <Compile Include="Assets\InControl\Editor\ReorderableList\IReorderableListAdaptor.cs" />
+     <Compile Include="Assets\InControl\Editor\ReorderableList\Internal\GUIHelper.cs" />
+     <Compile Include="Assets\InControl\Editor\ReorderableList\Internal\ReorderableListResources.cs" />
+     <Compile Include="Assets\InControl\Editor\ReorderableList\ReorderableListControl.cs" />
+     <Compile Include="Assets\InControl\Editor\ReorderableList\ReorderableListFlags.cs" />
+     <Compile Include="Assets\InControl\Editor\ReorderableList\ReorderableListGUI.cs" />
+     <Compile Include="Assets\InControl\Editor\ReorderableList\SerializedPropertyAdaptor.cs" />
      <Compile Include="Assets\SWS\Scripts\Editor\AboutSWSEditor.cs" />
      <Compile Include="Assets\SWS\Scripts\Editor\BezierPathEditor.cs" />
      <Compile Include="Assets\SWS\Scripts\Editor\CreateWPManager.cs" />
@@ -58,6 +70,7 @@
      <None Include="Assets\SWS\README.txt" />
      <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\SWS\Extensions\DOTween\DOTween43.xml" />
+     <None Include="Assets\InControl\README\README.txt" />
      <None Include="Assets\SWS\Extensions\DOTween\DOTween46.xml" />
      <None Include="Assets\SWS\Examples\Assets\Shaders\DiffuseReflectiveShader.shader" />
      <None Include="Assets\SWS\Extensions\DOTween\readme.txt" />
