@@ -98,6 +98,7 @@
      <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\SWS\Extensions\DOTween\DOTween43.xml" />
      <None Include="Assets\InControl\README\README.txt" />
+     <None Include="Assets\AirConsole\README.txt" />
      <None Include="Assets\SWS\Extensions\DOTween\DOTween46.xml" />
      <None Include="Assets\SWS\Examples\Assets\Shaders\DiffuseReflectiveShader.shader" />
      <None Include="Assets\SWS\Extensions\DOTween\readme.txt" />
@@ -108,6 +109,7 @@
      <None Include="Assets\SWS\Changelog.txt" />
      <None Include="Assets\SWS\Extensions\DOTween\DOTween50.xml" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -125,6 +127,9 @@
  </Reference>
  <Reference Include="DOTween50">
  <HintPath>/Users/pedro/Code/Personal/AncientMech/Assets/SWS/Extensions/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>/Users/pedro/Code/Personal/AncientMech/Assets/AirConsole/plugins/websocket-sharp.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

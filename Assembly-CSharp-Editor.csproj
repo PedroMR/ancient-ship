@@ -45,6 +45,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AirConsole\scripts\editor\Extentions.cs" />
+     <Compile Include="Assets\AirConsole\scripts\editor\Inspector.cs" />
+     <Compile Include="Assets\AirConsole\scripts\editor\PlayMode.cs" />
+     <Compile Include="Assets\AirConsole\scripts\editor\PostBuildProcess.cs" />
+     <Compile Include="Assets\AirConsole\scripts\editor\SettingWindow.cs" />
+     <Compile Include="Assets\AirConsole\scripts\editor\WebListener.cs" />
      <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
      <Compile Include="Assets\InControl\Editor\InControlBuilder.cs" />
      <Compile Include="Assets\InControl\Editor\InControlManagerEditor.cs" />
@@ -71,6 +77,7 @@
      <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\SWS\Extensions\DOTween\DOTween43.xml" />
      <None Include="Assets\InControl\README\README.txt" />
+     <None Include="Assets\AirConsole\README.txt" />
      <None Include="Assets\SWS\Extensions\DOTween\DOTween46.xml" />
      <None Include="Assets\SWS\Examples\Assets\Shaders\DiffuseReflectiveShader.shader" />
      <None Include="Assets\SWS\Extensions\DOTween\readme.txt" />
@@ -81,6 +88,7 @@
      <None Include="Assets\SWS\Changelog.txt" />
      <None Include="Assets\SWS\Extensions\DOTween\DOTween50.xml" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -131,6 +139,9 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>/Users/pedro/Code/Personal/AncientMech/Assets/AirConsole/plugins/websocket-sharp.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
