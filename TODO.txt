@@ -1,0 +1,20 @@
+
+- Menu and game cycle
+- Detect controllers during game setup
+- assign buttons during setup
+- Link controls to airconsole
+- Deal with controller reconnects
+
+- little people moving about
+- little people get crushed
+- little people catch fire
+
+- grabbing blocks to move them about
+- switches open gates
+- shooting
+- shooting breaks some obstacles
+  (mostly with horrible consequences)
+- buttons enable or switch other buttons' functionality
+
+
+

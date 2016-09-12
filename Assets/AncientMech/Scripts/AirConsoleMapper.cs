@@ -7,7 +7,7 @@ public class AirConsoleMapper : MonoBehaviour
 {
 
 	// Use this for initialization
-	void Start()
+	void Awake()
 	{
 		AirConsole.instance.onMessage += OnMessage;
 		AirConsole.instance.onConnect += OnConnect;
