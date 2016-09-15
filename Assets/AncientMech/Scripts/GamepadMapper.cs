@@ -4,12 +4,12 @@ using InControl;
 
 public class GamepadMapper : MonoBehaviour
 {
-	public KeyCode fire1;
-
 	// Use this for initialization
 	void Start()
 	{
-	
+		foreach(var device in InputManager.Devices) {
+			Debug.Log("Device " + device.Name + " attached? " + device.IsKnown);
+		}
 	}
 	
 	// Update is called once per frame
@@ -24,10 +24,13 @@ public class GamepadMapper : MonoBehaviour
 			CheckControl(input1, InputControlType.Action3, KeyCode.E);
 			CheckControl(input1, InputControlType.Action4, KeyCode.A);
 			CheckControl(input1, InputControlType.DPadLeft, KeyCode.S);
-			CheckControl(input1, InputControlType.DPadUp, KeyCode.D);
-			CheckControl(input1, InputControlType.DPadRight, KeyCode.Z);
-			CheckControl(input1, InputControlType.DPadDown, KeyCode.X);
-			CheckControl(input1, InputControlType.RightBumper, KeyCode.C);
+			CheckControl(input1, InputControlType.DPadUp, KeyCode.S);
+			CheckControl(input1, InputControlType.DPadRight, KeyCode.S);
+			CheckControl(input1, InputControlType.DPadDown, KeyCode.S);
+			CheckControl(input1, InputControlType.LeftBumper, KeyCode.X);
+			CheckControl(input1, InputControlType.LeftTrigger, KeyCode.X);
+			CheckControl(input1, InputControlType.RightTrigger, KeyCode.Z);
+			CheckControl(input1, InputControlType.RightBumper, KeyCode.Z);
 		}
 	}
 

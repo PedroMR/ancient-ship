@@ -18918,7 +18918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37d83ebce05ad74683fd3228dde9e7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  browserStartMode: 0
+  browserStartMode: 2
   controllerHtml: {fileID: 102900000, guid: 9e693e466298a4da094aa177b5bcd7e4, type: 3}
   autoScaleCanvas: 1
 --- !u!4 &1129451514
@@ -32670,6 +32670,7 @@ GameObject:
   - 4: {fileID: 1710118298}
   - 114: {fileID: 1710118297}
   - 114: {fileID: 1710118299}
+  - 114: {fileID: 1710118300}
   m_Layer: 0
   m_Name: GameRunner
   m_TagString: Untagged
@@ -32713,7 +32714,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46238a088a1e54b70a81023faf5254f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fire1: 0
+--- !u!114 &1710118300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1710118296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38676198810894074b518d5cc0eacfa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1715730654
 GameObject:
   m_ObjectHideFlags: 0

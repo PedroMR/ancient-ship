@@ -365,6 +365,9 @@
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>/Users/pedro/Code/Personal/AncientMech/Assets/AirConsole/plugins/websocket-sharp.dll</HintPath>
+ </Reference>
  <Reference Include="DOTween">
  <HintPath>/Users/pedro/Code/Personal/AncientMech/Assets/SWS/Extensions/DOTween/DOTween.dll</HintPath>
  </Reference>
@@ -376,9 +379,6 @@
  </Reference>
  <Reference Include="DOTween50">
  <HintPath>/Users/pedro/Code/Personal/AncientMech/Assets/SWS/Extensions/DOTween/DOTween50.dll</HintPath>
- </Reference>
- <Reference Include="websocket-sharp">
- <HintPath>/Users/pedro/Code/Personal/AncientMech/Assets/AirConsole/plugins/websocket-sharp.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
