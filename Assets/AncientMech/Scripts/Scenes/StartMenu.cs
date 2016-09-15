@@ -65,6 +65,10 @@ public class StartMenu : MonoBehaviour
 
 	public void StartGame()
 	{
+		config.playerControls = new SessionConfig.ControlType[config.numPlayers];
+		for (var i=0; i < config.numPlayers; i++) {
+			config.playerControls[i] = playerUIs[i].control;
+		}
 		SceneManager.LoadScene("3D");
 	}
 

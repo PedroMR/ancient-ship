@@ -27,6 +27,6 @@ public class SessionConfig
 		Mouse
 	};
 
-	ControlType[] players;
+	public ControlType[] playerControls;
 }
 
