@@ -11,6 +11,12 @@ public class GameRunner : MonoBehaviour
 	void Awake()
 	{
 		Instance = this;
+
+		var config = SessionConfig.Instance;
+		if (config.numPlayers == 0) {
+			config.numPlayers = 1;
+			config.playerControls = new SessionConfig.ControlType[] { SessionConfig.ControlType.Controller1 };
+		}
 	}
 	
 	public void DestructionCaused(float amount) {
