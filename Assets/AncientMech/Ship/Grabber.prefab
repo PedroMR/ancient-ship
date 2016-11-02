@@ -152,10 +152,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetComponents: []
-  TargetObjects:
-  - {fileID: 1000010091822664}
+  TargetObjects: []
+  TargetEmitters:
+  - {fileID: 198000010782715962}
   KeyToActivate: 0
-  ActivateWhileHolding: 1
+  ActivateWhileHolding: 0
+  CurrentlyActive: 0
 --- !u!114 &114000014108246602
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -617,7 +619,7 @@ ParticleSystem:
     m_UseMeshColors: 1
     randomDirection: 0
   EmissionModule:
-    enabled: 1
+    enabled: 0
     serializedVersion: 2
     m_Type: 0
     rate:

@@ -5620,8 +5620,10 @@ MonoBehaviour:
   - {fileID: 435324887}
   TargetObjects:
   - {fileID: 79168791}
+  TargetEmitters: []
   KeyToActivate: 97
   ActivateWhileHolding: 1
+  CurrentlyActive: 0
 --- !u!138 &435324886
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -5885,8 +5887,10 @@ MonoBehaviour:
   - {fileID: 463163731}
   TargetObjects:
   - {fileID: 839329664}
+  TargetEmitters: []
   KeyToActivate: 97
   ActivateWhileHolding: 1
+  CurrentlyActive: 0
 --- !u!138 &463163730
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -6257,8 +6261,10 @@ MonoBehaviour:
   - {fileID: 496524488}
   TargetObjects:
   - {fileID: 1896233648}
+  TargetEmitters: []
   KeyToActivate: 97
   ActivateWhileHolding: 1
+  CurrentlyActive: 0
 --- !u!138 &496524487
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -6586,8 +6592,10 @@ MonoBehaviour:
   - {fileID: 534730503}
   TargetObjects:
   - {fileID: 1950042225}
+  TargetEmitters: []
   KeyToActivate: 97
   ActivateWhileHolding: 1
+  CurrentlyActive: 0
 --- !u!138 &534730502
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -7577,11 +7585,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 637782219}
     m_Modifications:
-    - target: {fileID: 114000012711962474, guid: 213315476ff2a4defba737f54e392fe3,
-        type: 2}
-      propertyPath: TargetObjects.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 449490, guid: 213315476ff2a4defba737f54e392fe3, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0.6899996
@@ -7614,11 +7617,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114000012711962474, guid: 213315476ff2a4defba737f54e392fe3,
-        type: 2}
-      propertyPath: TargetObjects.Array.data[0]
-      value: 
-      objectReference: {fileID: 1221428472}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 213315476ff2a4defba737f54e392fe3, type: 2}
   m_IsPrefabParent: 0
@@ -9883,8 +9881,10 @@ MonoBehaviour:
   - {fileID: 711037468}
   TargetObjects:
   - {fileID: 779476670}
+  TargetEmitters: []
   KeyToActivate: 113
   ActivateWhileHolding: 1
+  CurrentlyActive: 0
 --- !u!138 &711037467
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -16014,8 +16014,10 @@ MonoBehaviour:
   - {fileID: 939693776}
   TargetObjects:
   - {fileID: 383003808}
+  TargetEmitters: []
   KeyToActivate: 97
   ActivateWhileHolding: 1
+  CurrentlyActive: 0
 --- !u!138 &939693775
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -16381,8 +16383,10 @@ MonoBehaviour:
   - {fileID: 976256559}
   TargetObjects:
   - {fileID: 2136413226}
+  TargetEmitters: []
   KeyToActivate: 97
   ActivateWhileHolding: 1
+  CurrentlyActive: 0
 --- !u!138 &976256558
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -19142,8 +19146,10 @@ MonoBehaviour:
   - {fileID: 1150214536}
   TargetObjects:
   - {fileID: 688210813}
+  TargetEmitters: []
   KeyToActivate: 97
   ActivateWhileHolding: 1
+  CurrentlyActive: 0
 --- !u!138 &1150214535
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -19503,8 +19509,10 @@ MonoBehaviour:
   - {fileID: 1182311701}
   TargetObjects:
   - {fileID: 1784726105}
+  TargetEmitters: []
   KeyToActivate: 97
   ActivateWhileHolding: 1
+  CurrentlyActive: 0
 --- !u!138 &1182311700
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -19661,8 +19669,10 @@ MonoBehaviour:
   - {fileID: 1186692508}
   TargetObjects:
   - {fileID: 1482012775}
+  TargetEmitters: []
   KeyToActivate: 97
   ActivateWhileHolding: 1
+  CurrentlyActive: 0
 --- !u!138 &1186692507
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -19881,11 +19891,6 @@ Transform:
   - {fileID: 2007321362}
   m_Father: {fileID: 1088949940}
   m_RootOrder: 0
---- !u!1 &1221428472 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1000010091822664, guid: 213315476ff2a4defba737f54e392fe3,
-    type: 2}
-  m_PrefabInternal: {fileID: 645489640}
 --- !u!1 &1234495801
 GameObject:
   m_ObjectHideFlags: 0
@@ -22944,8 +22949,10 @@ MonoBehaviour:
   - {fileID: 1398551920}
   TargetObjects:
   - {fileID: 1691747059}
+  TargetEmitters: []
   KeyToActivate: 97
   ActivateWhileHolding: 1
+  CurrentlyActive: 0
 --- !u!138 &1398551919
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -23171,8 +23178,10 @@ MonoBehaviour:
   - {fileID: 1420737218}
   TargetObjects:
   - {fileID: 1318052526}
+  TargetEmitters: []
   KeyToActivate: 97
   ActivateWhileHolding: 1
+  CurrentlyActive: 0
 --- !u!138 &1420737217
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -27590,8 +27599,10 @@ MonoBehaviour:
   - {fileID: 1566987390}
   TargetObjects:
   - {fileID: 1560322446}
+  TargetEmitters: []
   KeyToActivate: 97
   ActivateWhileHolding: 1
+  CurrentlyActive: 0
 --- !u!138 &1566987389
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -28047,8 +28058,10 @@ MonoBehaviour:
   - {fileID: 1577920009}
   TargetObjects:
   - {fileID: 1873163212}
+  TargetEmitters: []
   KeyToActivate: 97
   ActivateWhileHolding: 1
+  CurrentlyActive: 0
 --- !u!138 &1577920008
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -38955,8 +38968,10 @@ MonoBehaviour:
   - {fileID: 1910185424}
   TargetObjects:
   - {fileID: 1014162817}
+  TargetEmitters: []
   KeyToActivate: 97
   ActivateWhileHolding: 1
+  CurrentlyActive: 0
 --- !u!138 &1910185423
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -41637,8 +41652,10 @@ MonoBehaviour:
   - {fileID: 2030054977}
   TargetObjects:
   - {fileID: 756375799}
+  TargetEmitters: []
   KeyToActivate: 97
   ActivateWhileHolding: 1
+  CurrentlyActive: 0
 --- !u!138 &2030054976
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -42033,8 +42050,10 @@ MonoBehaviour:
   - {fileID: 2044313454}
   TargetObjects:
   - {fileID: 1657034020}
+  TargetEmitters: []
   KeyToActivate: 113
   ActivateWhileHolding: 1
+  CurrentlyActive: 0
 --- !u!1 &2046464526
 GameObject:
   m_ObjectHideFlags: 0

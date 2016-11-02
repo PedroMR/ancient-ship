@@ -4,12 +4,16 @@ using System.Collections;
 public class ActivateOnInput : MonoBehaviour {
 	public Behaviour[] TargetComponents;
 	public GameObject[] TargetObjects;
+	public ParticleSystem[] TargetEmitters;
 	public KeyCode KeyToActivate;
 	public bool ActivateWhileHolding = true;
 
 	public bool CurrentlyActive = false;
 
-	// Update is called once per frame
+	void Start() {
+		RefreshObjects();
+	}
+
 	void Update () {
 		var previousStatus = CurrentlyActive;
 		if (ActivateWhileHolding) {
@@ -33,6 +37,12 @@ public class ActivateOnInput : MonoBehaviour {
 		if (TargetObjects != null) {
 			foreach(var gameObject in TargetObjects)
 				gameObject.SetActive(CurrentlyActive);
+		}		
+		if (TargetEmitters != null) {
+			foreach(var particleSystem in TargetEmitters) {
+				var em = particleSystem.emission; 
+				em.enabled = CurrentlyActive;
+			}
 		}		
 	}
 }

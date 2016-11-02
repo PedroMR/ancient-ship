@@ -6,10 +6,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{37B63C74-6C5A-6163-C3FF-7451500BF3EA}</ProjectGuid>
+    <ProjectGuid>{0C12F375-EF6C-7BE0-8047-019FDAA3ACFC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
@@ -48,34 +48,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AirConsole\scripts\editor\Extentions.cs" />
-     <Compile Include="Assets\AirConsole\scripts\editor\Inspector.cs" />
-     <Compile Include="Assets\AirConsole\scripts\editor\PlayMode.cs" />
-     <Compile Include="Assets\AirConsole\scripts\editor\PostBuildProcess.cs" />
-     <Compile Include="Assets\AirConsole\scripts\editor\SettingWindow.cs" />
-     <Compile Include="Assets\AirConsole\scripts\editor\WebListener.cs" />
-     <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
-     <Compile Include="Assets\InControl\Editor\InControlBuilder.cs" />
-     <Compile Include="Assets\InControl\Editor\InControlManagerEditor.cs" />
-     <Compile Include="Assets\InControl\Editor\InputManagerAssetGenerator.cs" />
-     <Compile Include="Assets\InControl\Editor\ProfileListGenerator.cs" />
-     <Compile Include="Assets\InControl\Editor\ReorderableList\GenericListAdaptor.cs" />
-     <Compile Include="Assets\InControl\Editor\ReorderableList\IReorderableListAdaptor.cs" />
-     <Compile Include="Assets\InControl\Editor\ReorderableList\Internal\GUIHelper.cs" />
-     <Compile Include="Assets\InControl\Editor\ReorderableList\Internal\ReorderableListResources.cs" />
-     <Compile Include="Assets\InControl\Editor\ReorderableList\ReorderableListControl.cs" />
-     <Compile Include="Assets\InControl\Editor\ReorderableList\ReorderableListFlags.cs" />
-     <Compile Include="Assets\InControl\Editor\ReorderableList\ReorderableListGUI.cs" />
-     <Compile Include="Assets\InControl\Editor\ReorderableList\SerializedPropertyAdaptor.cs" />
-     <Compile Include="Assets\SWS\Scripts\Editor\AboutSWSEditor.cs" />
-     <Compile Include="Assets\SWS\Scripts\Editor\BezierPathEditor.cs" />
-     <Compile Include="Assets\SWS\Scripts\Editor\CreateWPManager.cs" />
-     <Compile Include="Assets\SWS\Scripts\Editor\PathEditor.cs" />
-     <Compile Include="Assets\SWS\Scripts\Editor\ReviewWindowEditor.cs" />
-     <Compile Include="Assets\SWS\Scripts\Editor\WaypointEditor.cs" />
-     <Compile Include="Assets\SWS\Scripts\Editor\moveEditor.cs" />
-     <Compile Include="Assets\SWS\Scripts\Editor\navMoveEditor.cs" />
-     <Compile Include="Assets\SWS\Scripts\Editor\splineMoveEditor.cs" />
+     <Compile Include="Assets\Plugins\Editor\VSCode.cs" />
      <None Include="Assets\SWS\README.txt" />
      <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\SWS\Extensions\DOTween\DOTween43.xml" />
@@ -153,10 +126,6 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{DEC0BA24-DACB-75A5-211E-AC488060C45A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{FE08A677-9710-17D3-17F0-4CD3469BE9F2}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{0C12F375-EF6C-7BE0-8047-019FDAA3ACFC}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
