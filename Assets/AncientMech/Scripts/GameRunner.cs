@@ -19,6 +19,11 @@ public class GameRunner : MonoBehaviour
 		}
 	}
 	
+	public void LateUpdate()
+	{
+		InputBroker.Instance.NewFrame();
+	}
+
 	public void DestructionCaused(float amount) {
 		DestructionTotal += amount;
 

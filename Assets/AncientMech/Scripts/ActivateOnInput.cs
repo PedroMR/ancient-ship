@@ -7,21 +7,32 @@ public class ActivateOnInput : MonoBehaviour {
 	public KeyCode KeyToActivate;
 	public bool ActivateWhileHolding = true;
 
+	public bool CurrentlyActive = false;
+
 	// Update is called once per frame
 	void Update () {
+		var previousStatus = CurrentlyActive;
 		if (ActivateWhileHolding) {
-			if (TargetComponents != null) {
-				foreach(var component in TargetComponents)
-					component.enabled = InputBroker.Instance.GetKey(KeyToActivate);
-			}
-			if (TargetObjects != null) {
-				foreach(var gameObject in TargetObjects)
-					gameObject.SetActive(InputBroker.Instance.GetKey(KeyToActivate));
-			}
+			CurrentlyActive = InputBroker.Instance.GetKey(KeyToActivate);
 		} else {
-			if (Input.GetKeyDown(KeyToActivate)) {
-//					TargetComponent.enabled = !TargetComponent.enabled;
+			if(InputBroker.Instance.GetKeyDown(KeyToActivate)) {
+				CurrentlyActive = !CurrentlyActive;
 			}
 		}
+
+		if (CurrentlyActive != previousStatus)
+			RefreshObjects();
+	}
+
+	void RefreshObjects()
+	{
+		if (TargetComponents != null) {
+			foreach(var component in TargetComponents)
+				component.enabled = CurrentlyActive;
+		}
+		if (TargetObjects != null) {
+			foreach(var gameObject in TargetObjects)
+				gameObject.SetActive(CurrentlyActive);
+		}		
 	}
 }
