@@ -20,7 +20,7 @@ public class ExplodesOnContact : MonoBehaviour
 		if (dead)
 			return;
 
-		if (other.gameObject.layer != LayerMask.NameToLayer("Player"))
+		if (other.gameObject.layer != LayerMask.NameToLayer("Player") && other.gameObject.layer != LayerMask.NameToLayer("Grabbable"))
 			return;
 		
 		if (Explosion != null) {

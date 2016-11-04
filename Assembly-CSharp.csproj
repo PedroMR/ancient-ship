@@ -217,12 +217,14 @@
      <Compile Include="Assets\AncientMech\Scripts\InputBroker.cs" />
      <Compile Include="Assets\AncientMech\Scripts\LandingPad.cs" />
      <Compile Include="Assets\AncientMech\Scripts\MouseCameraControl.cs" />
-     <Compile Include="Assets\AncientMech\Scripts\PartJoiner.cs" />
+     <Compile Include="Assets\AncientMech\Scripts\Parts\Grabber.cs" />
+     <Compile Include="Assets\AncientMech\Scripts\Parts\PartJoiner.cs" />
      <Compile Include="Assets\AncientMech\Scripts\RandomColor.cs" />
      <Compile Include="Assets\AncientMech\Scripts\RandomizeInputs.cs" />
      <Compile Include="Assets\AncientMech\Scripts\Scenes\StartMenu.cs" />
      <Compile Include="Assets\AncientMech\Scripts\SessionConfig.cs" />
      <Compile Include="Assets\AncientMech\Scripts\UI\PlayerUI.cs" />
+     <Compile Include="Assets\AncientMech\Scripts\Util.cs" />
      <Compile Include="Assets\InControl\Examples\Basic\CubeController.cs" />
      <Compile Include="Assets\InControl\Examples\CustomProfile\CubeController.cs" />
      <Compile Include="Assets\InControl\Examples\CustomProfile\KeyboardAndMouseProfile.cs" />
